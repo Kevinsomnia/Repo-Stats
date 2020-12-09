@@ -1,0 +1,33 @@
+body {
+	color: #ebebeb;
+	background-color: #161616;
+	background-image: url(../images/noise_bg.jpg);
+	background-repeat: repeat;
+}
+
+/*
+SCROLL-BAR
+*/
+::-webkit-scrollbar {
+	width: 15px;
+}
+::-webkit-scrollbar-track {
+	background: #161616;
+}
+::-webkit-scrollbar-thumb {
+	background: #5f5f5f;
+}
+::-webkit-scrollbar-thumb:hover {
+	background: #4f4f4f;
+}
+
+.contributorContainer {
+    width: 350px;
+    height: 75px;
+}
+
+.nameHeader {
+    color: rgb(169, 230, 226);
+    font-size: large;
+    font-weight: bold;
+}
